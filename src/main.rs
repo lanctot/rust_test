@@ -1,8 +1,6 @@
-include!("./bindings.rs");
+include!("./lib.rs");
 
 fn main() {
-  unsafe {
-    test();
-  }
+  test2();
 }
 
